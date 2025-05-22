@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Post  # sesuaikan nama model dan path
 
-# Register your models here.
+admin.site.register(Post)
